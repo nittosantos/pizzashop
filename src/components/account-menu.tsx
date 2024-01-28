@@ -25,9 +25,9 @@ export function AccountMenu() {
 
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuLabel className="flex flex-col">
-          <span>Diego Fernandes</span>
+          <span>Juliana Ramos</span>
           <span className="text-xs font-normal text-muted-foreground">
-            diego@rocketseat.com.br
+            juramos.perfeita@soulinda.com.br
           </span>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
@@ -35,7 +35,7 @@ export function AccountMenu() {
           <Building className="mr-2 h-4 w-4" />
           <span>Perfil da loja</span>
         </DropdownMenuItem>
-        <DropdownMenuItem className="text-rose-500 dark:text-rose-400">
+        <DropdownMenuItem className="text-red-500 dark:text-red-400">
           <LogOut className="mr-2 h-4 w-4" />
           <span>Sair</span>
         </DropdownMenuItem>
